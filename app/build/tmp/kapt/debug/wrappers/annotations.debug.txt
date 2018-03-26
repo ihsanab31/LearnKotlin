@@ -1,0 +1,85 @@
+p com.sundevs.ihsan.belajarkotlin.adapter 0
+d 0/NewsAdapater
+d 0/NewsAdapater$ViewHolder
+a org.jetbrains.annotations.NotNull 0
+f 0 0/NewsAdapater$ViewHolder cvNews
+m 0 0/NewsAdapater$ViewHolder getCvNews
+f 0 0/NewsAdapater$ViewHolder imgNews
+m 0 0/NewsAdapater$ViewHolder getImgNews
+f 0 0/NewsAdapater$ViewHolder lblTitleNews
+m 0 0/NewsAdapater$ViewHolder getLblTitleNews
+f 0 0/NewsAdapater$ViewHolder lblDateNews
+m 0 0/NewsAdapater$ViewHolder getLblDateNews
+f 0 0/NewsAdapater$ViewHolder lblAuthorNews
+m 0 0/NewsAdapater$ViewHolder getLblAuthorNews
+a android.annotation.SuppressLint 1
+m 1 0/NewsAdapater onCreateViewHolder
+m 0 0/NewsAdapater onCreateViewHolder
+m 1 0/NewsAdapater onBindViewHolder
+f 0 0/NewsAdapater context
+m 0 0/NewsAdapater getContext
+f 0 0/NewsAdapater listNews
+m 0 0/NewsAdapater getListNews
+p com.sundevs.ihsan.belajarkotlin.api 1
+d 1/APIClient
+d 1/APIClient$Companion
+a org.jetbrains.annotations.Nullable 2
+m 2 1/APIClient$Companion getClient
+m 2 1/APIClient access$getRetrofit$cp
+d 1/BaseURL
+d 1/BaseURL$Companion
+m 0 1/BaseURL$Companion getAPIService
+m 0 1/BaseURL access$getURL_API$cp
+d 1/EndPoint
+a retrofit2.http.GET 3
+m 3 1/EndPoint getListNews
+m 0 1/EndPoint getListNews
+d 1/EndPoint$DefaultImpls
+p com.sundevs.ihsan.belajarkotlin 2
+d 2/BaseView
+d 2/BaseView$DefaultImpls
+d 2/NewsApp
+p com.sundevs.ihsan.belajarkotlin.model 3
+d 3/News
+a com.google.gson.annotations.SerializedName 4
+f 4 3/News imgNews
+f 4 3/News titleNews
+f 4 3/News dateNews
+f 4 3/News authorNews
+f 4 3/News contentNews
+f 4 3/News sourceNews
+m 0 3/News getImgNews
+m 0 3/News getTitleNews
+m 0 3/News getDateNews
+m 0 3/News getAuthorNews
+m 0 3/News getContentNews
+m 0 3/News getSourceNews
+d 3/NewsResponse
+f 4 3/NewsResponse status
+f 4 3/NewsResponse totalResults
+f 4 3/NewsResponse newsList
+m 2 3/NewsResponse getStatus
+m 2 3/NewsResponse getTotalResults
+m 2 3/NewsResponse getNewsList
+p com.sundevs.ihsan.belajarkotlin.view.activity 4
+d 4/MainActivity
+a butterknife.BindView 5
+f 5 4/MainActivity rvNews
+f 0 4/MainActivity rvNews
+m 0 4/MainActivity getRvNews
+f 0 4/MainActivity listNews
+m 0 4/MainActivity getListNews
+f 0 4/MainActivity category
+m 0 4/MainActivity getCategory
+f 2 4/MainActivity loading
+m 2 4/MainActivity getLoading
+f 2 4/MainActivity apiService
+m 2 4/MainActivity getApiService
+d 4/MainActivity$refresh$1
+m 2 4/MainActivity access$getAdapter$p
+p com.sundevs.ihsan.belajarkotlin.view.base 5
+d 5/BaseActivity
+a android.support.annotation.LayoutRes 6
+m 6 5/BaseActivity getActivityView$app_debug
+m 2 5/BaseActivity getBundle
+d 5/NormalActivity

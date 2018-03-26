@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BelajarKotlin</string>
+    <string name="hasil">Hasil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_apps">Berita \n Indonesia</string>
+    <string name="_24_januari_2018">24 Januari 2018</string>
+    <string name="benefit_of_eating_watermelon_for_men">Benefit of Eating Watermelon for Men</string>
+    <string name="default_name">Ihsan Abdurahman</string>
+    <string name="default_date">xxx</string>
+    <string name="view_more">Lihat Selengkapnya</string>
+    <string name="todo">TODO</string>
+    <string name="default_tanggal">24 Januari 2018</string>
+    <string name="default_judul">judul news</string>
+    <string name="detail_berita">Detail Berita</string>
+</resources>
