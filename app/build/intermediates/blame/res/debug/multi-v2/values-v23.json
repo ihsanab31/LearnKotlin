@@ -4,7 +4,7 @@
             "outputFile": "E:\\BelajarKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\68262548ae214441a23ab2936573aacd\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\efad5b86a3ef43a9c5c462770d53b3ad\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\e32b7fd478cf306610ebdbffc1080ba1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\7ef2122ac994f40798b0b64cfcfa1281\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

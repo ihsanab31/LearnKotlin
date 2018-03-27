@@ -4,7 +4,7 @@
             "outputFile": "E:\\BelajarKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\3e03bac33a68c89c08fdfc9d94c1a6aa\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\23b301af084945608566a70eba8795e9\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\68262548ae214441a23ab2936573aacd\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\iihsa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\efad5b86a3ef43a9c5c462770d53b3ad\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
