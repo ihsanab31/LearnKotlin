@@ -2,7 +2,6 @@ package com.sundevs.ihsan.belajarkotlin.model
 
 import com.google.gson.annotations.SerializedName
 
-
 /**
  * Created by
  * Name     : Ihsan Abdurahman

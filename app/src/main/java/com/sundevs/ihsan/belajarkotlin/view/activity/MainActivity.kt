@@ -1,6 +1,5 @@
 package com.sundevs.ihsan.belajarkotlin.view.activity
 
-import android.app.ProgressDialog
 import android.os.Bundle
 import com.sundevs.ihsan.belajarkotlin.R
 import com.sundevs.ihsan.belajarkotlin.view.base.NormalActivity
@@ -24,7 +23,7 @@ class MainActivity : NormalActivity() {
     private var adapter: NewsAdapater? = null
     var listNews: List<News> = ArrayList()
     val category = "entertainment"
-    var loading: ProgressDialog? = null
+
     var apiService: EndPoint? = null
 
     override fun getActivityView(): Int {
@@ -47,22 +46,22 @@ class MainActivity : NormalActivity() {
     }
 
     fun refresh() {
-        loading = ProgressDialog.show(this, null, "Harap Tunggu...", true, false)
+        showProgressDialog("Harap  Tunggu")
         apiService!!.getListNews("id", category, "a9c6552887f94c429a093f3f71fa7557").enqueue(object : Callback<NewsResponse> {
             override fun onResponse(call: Call<NewsResponse>, response: Response<NewsResponse>) {
                 if (response.isSuccessful) {
-                    loading!!.dismiss()
+                    dismissProgressDialog()
                     listNews = response.body()!!.getNewsList()!!
-                    rvNews!!.adapter = NewsAdapater(applicationContext, listNews)
+                    rvNews.adapter = NewsAdapater(applicationContext, listNews)
                     adapter!!.notifyDataSetChanged()
                 } else {
-                    loading!!.dismiss()
+                    dismissProgressDialog()
                     Toast.makeText(applicationContext, "Failed to Fetch Data !", Toast.LENGTH_SHORT).show()
                 }
             }
 
             override fun onFailure(call: Call<NewsResponse>, t: Throwable) {
-                loading!!.dismiss()
+                dismissProgressDialog()
                 Toast.makeText(applicationContext, "Failed to Connect Internet !", Toast.LENGTH_SHORT).show()
             }
         })

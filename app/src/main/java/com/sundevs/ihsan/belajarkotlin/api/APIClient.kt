@@ -5,10 +5,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 
-
-
-
-
 /**
  * Created by
  * Name     : Ihsan Abdurahman
