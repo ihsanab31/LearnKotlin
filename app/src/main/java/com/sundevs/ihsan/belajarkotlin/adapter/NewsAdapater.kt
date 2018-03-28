@@ -45,7 +45,7 @@ class NewsAdapater(var context: Context, var listNews: List<News>) : RecyclerVie
         holder.lblTitleNews.text = news.getTitleNews()
         holder.lblDateNews.text = news.getDateNews().substring(0, 10) + " " + news.getDateNews().substring(11, 16)
         if (news.getAuthorNews() == null) {
-            holder.lblAuthorNews.text = "Unknown Author"
+            holder.lblAuthorNews.text = "Penulis Tidak Diketahui"
         } else {
             holder.lblAuthorNews.text = news.getAuthorNews()
         }
