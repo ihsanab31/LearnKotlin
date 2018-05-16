@@ -25,7 +25,9 @@ class News {
     @SerializedName("url") private
     lateinit var sourceNews: String
 
-    fun News(imgNews: String, titleNews: String, dateNews: String, authorNews: String, contentNews: String, sourceNews: String) {
+    fun News(imgNews: String, titleNews: String, dateNews: String,
+             authorNews: String, contentNews: String,
+             sourceNews: String) {
         this.imgNews = imgNews
         this.titleNews = titleNews
         this.dateNews = dateNews

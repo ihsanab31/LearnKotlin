@@ -12,7 +12,7 @@ package com.sundevs.ihsan.belajarkotlin.api
 
 class BaseURL {
     companion object {
-         private val URL_API: String = "https://newsapi.org/"
+         private const val URL_API: String = "https://newsapi.org/"
 
         fun getAPIService(): EndPoint {
             return APIClient.getClient(URL_API)!!.create(EndPoint::class.java)
